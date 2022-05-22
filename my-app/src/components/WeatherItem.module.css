@@ -1,0 +1,29 @@
+.weather {
+    width: 400px;
+    height: 220px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background: url('/public/bg-clouds.jpg') 0 0/cover no-repeat;
+}
+
+.weatherContent {
+    padding-left: 10px;
+    font-family: 'YS Text', Helvetica Neue, Arial;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.weatherContent h1 {
+    font-size: xx-large;
+}
+
+.blur {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(3px); 
+    border: 1px solid;
+    border-radius: 20px;
+	width: 400px;
+    height: 220px;
+    display: flex;
+}
