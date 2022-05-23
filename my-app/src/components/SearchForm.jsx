@@ -1,6 +1,7 @@
 import React from "react"
 import axios from 'axios'
 import { useState } from 'react';
+import CustomInput from "./ui/input/CustomInput";
 
 function SearchForm(props) {
     const [inputValue, setInputValue] = useState('');
@@ -13,21 +14,19 @@ function SearchForm(props) {
                        wind: res.data.wind, 
                        description: res.data.description, 
                        items: res.data.forecast
-                    };
+                      };
 
       props.func(weather);
     }
 
     return (
         <div>
-            <h1>Прогноз погоды</h1>
-            <input
-                placeholder = 'Впишите название города'
-                value = {inputValue}
-                onChange = {e => setInputValue(e.target.value)}
+            <CustomInput
+                inputValue = {inputValue}
+                setInputValue = {setInputValue}
+                func = {fetchWeather}
             />
-            <button onClick={fetchWeather}>Получить</button>
-            <h1>Сегодня</h1>
+            <br/>
         </div>
     )
 }

@@ -2,6 +2,7 @@ import SearchForm from './components/SearchForm.jsx';
 import WeatherItem from './components/WeatherItem.jsx'
 import { useState } from 'react';
 import WeatherForecast from './components/WeatherForecast.jsx';
+import './App.css'
 
 function App() {
   const [value, setValue] = useState({city: '', temperature: '', wind: '', description: '', items:[]});
