@@ -6,6 +6,11 @@
     background: url('/public/bg-clouds.jpg') 0 0/cover no-repeat;
 }
 
+.weather:hover {
+    margin-left: 2px;
+    box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+}
+
 .weatherContent {
     padding-left: 10px;
     font-family: 'YS Text', Helvetica Neue, Arial, serif;

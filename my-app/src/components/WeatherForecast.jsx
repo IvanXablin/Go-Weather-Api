@@ -8,14 +8,14 @@ function WeatherForecast({forecast, city}) {
             <h1 className={classes.h1}>Прогноз погоды на следующие дни</h1>
              {forecast.map(i => {
                  return (
-                     <div>
+                     <div className={classes.forecastContent}>
                         <WeatherItem 
                             city = {city}
                             tempr = {i.temperature}
                             wind = {i.wind}
                             descript = {'Day ' + i.day}
                         />
-                        <br/>
+                         <br/>
                      </div>
                  )
              })}

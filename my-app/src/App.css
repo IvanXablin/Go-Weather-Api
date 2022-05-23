@@ -2,3 +2,8 @@
     margin: 0 auto;
     width: 40%;
 }
+
+.today {
+    color: #fff;
+    font-family: 'YS Text', Helvetica Neue, Arial, serif;
+}

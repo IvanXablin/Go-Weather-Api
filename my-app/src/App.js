@@ -4,6 +4,7 @@ import { useState } from 'react';
 import WeatherForecast from './components/WeatherForecast.jsx';
 import './App.css'
 
+
 function App() {
   const [value, setValue] = useState({city: '', temperature: '', wind: '', description: '', items:[]});
 
@@ -12,7 +13,8 @@ function App() {
         <SearchForm
             func={setValue}
         />
-        <WeatherItem 
+        <h1 className="today">Прогноз погоды на сегодня</h1>
+        <WeatherItem
           city = {value.city}
           tempr = {value.temperature}
           wind = {value.wind}
