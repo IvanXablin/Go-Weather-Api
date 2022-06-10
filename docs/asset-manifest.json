@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Go-Weather-Api/static/css/main.ba3f7dff.css",
+    "main.js": "/Go-Weather-Api/static/js/main.1348c279.js",
+    "static/media/bg-clouds.jpg": "/Go-Weather-Api/static/media/bg-clouds.b5092ed2937d032a59b7.jpg",
+    "index.html": "/Go-Weather-Api/index.html",
+    "main.ba3f7dff.css.map": "/Go-Weather-Api/static/css/main.ba3f7dff.css.map",
+    "main.1348c279.js.map": "/Go-Weather-Api/static/js/main.1348c279.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ba3f7dff.css",
+    "static/js/main.1348c279.js"
+  ]
+}
