@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Go-Weather-Api/static/css/main.98299333.css",
-    "main.js": "/Go-Weather-Api/static/js/main.492efe25.js",
+    "main.css": "/Go-Weather-Api/static/css/main.a74420ba.css",
+    "main.js": "/Go-Weather-Api/static/js/main.9103b108.js",
     "static/media/sun.jpg": "/Go-Weather-Api/static/media/sun.4ec44db789d18d586d72.jpg",
     "index.html": "/Go-Weather-Api/index.html",
-    "main.98299333.css.map": "/Go-Weather-Api/static/css/main.98299333.css.map",
-    "main.492efe25.js.map": "/Go-Weather-Api/static/js/main.492efe25.js.map"
+    "main.a74420ba.css.map": "/Go-Weather-Api/static/css/main.a74420ba.css.map",
+    "main.9103b108.js.map": "/Go-Weather-Api/static/js/main.9103b108.js.map"
   },
   "entrypoints": [
-    "static/css/main.98299333.css",
-    "static/js/main.492efe25.js"
+    "static/css/main.a74420ba.css",
+    "static/js/main.9103b108.js"
   ]
 }
