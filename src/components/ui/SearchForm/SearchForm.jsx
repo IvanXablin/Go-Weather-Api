@@ -1,9 +1,9 @@
 import React from 'react'
-import styles from "./CustomInput.module.css";
+import styles from "./SearchForm.module.css";
 
-function CustomInput(props) {
+export default function SearchForm(props) {
 
-    const something=(event)=> {
+    const something = (event) => {
         if (event.keyCode === 13) {
             props.func();
         }
@@ -12,7 +12,7 @@ function CustomInput(props) {
     return (
         <div>
             <div className={styles.searchForm__wrapper}>            
-                <div className={styles.searchFormContent}>
+                <div className={styles.searchForm__Content}>
                     <div className={styles.searchInput}>
                         <input 
                             type="text"
@@ -30,5 +30,3 @@ function CustomInput(props) {
         </div>
     )
 }
-
-export default CustomInput

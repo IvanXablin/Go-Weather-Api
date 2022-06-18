@@ -4,7 +4,7 @@
     display: flex;
 }
 
-.searchFormContent {
+.searchForm__Content {
     width: 100%;
     margin: 50px 1%;
     display: flex;
@@ -15,10 +15,11 @@
 }
 
 .searchInput input { 
-   min-width: 250px;
-   min-height: 25px;
+   min-width: 290px;
+   min-height: 40px;
    border: 0.2px solid black;
-   border-radius: 20px;
+   border-radius: 40px;
+   font-size: 20px;
 }
 
 .searchButton {
@@ -26,8 +27,8 @@
 }
 
 .searchButton button {
-    min-width:  29px;
-    min-height: 29px;
+    min-width: 40px;
+    min-height: 40px;
     border: none;
     border-radius: 20px;
     background-color: #747473;

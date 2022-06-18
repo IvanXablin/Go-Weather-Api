@@ -6,12 +6,9 @@
     margin: 0 auto;
 }
 
-.today {
-    color: #fff;
-    font-family: 'YS Text', Helvetica Neue, Arial, serif;
-}
-
-h2 {
+.App-content h2 {
     text-align: left;
     margin-left: 10px;
+    color: #fff;
+    font-family: 'YS Text', Helvetica Neue, Arial, serif;
 }

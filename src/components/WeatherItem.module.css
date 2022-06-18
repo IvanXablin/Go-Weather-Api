@@ -2,7 +2,7 @@
     min-width: 350px;
     height: 220px;
     border-radius: 20px;
-    background: url('/public/sun.jpg') 0 0/cover no-repeat;
+    background: url('../assets/sun.jpg') 0 0/cover no-repeat;
 }
 
 .weatherContent {
@@ -21,7 +21,7 @@
 .blur {
     background: rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(11px);
-    border-radius: 20px;
+    border-radius: 20px; 
 	min-width: 350px;
     height: 220px;
     display: flex;
