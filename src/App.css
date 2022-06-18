@@ -10,3 +10,8 @@
     color: #fff;
     font-family: 'YS Text', Helvetica Neue, Arial, serif;
 }
+
+h2 {
+    text-align: left;
+    margin-left: 10px;
+}

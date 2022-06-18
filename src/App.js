@@ -11,23 +11,24 @@ function App() {
   /* 
 
   <h1 className="today">Прогноз погоды на сегодня</h1>
-  <WeatherItem
-    city = {value.city}
-    tempr = {value.temperature}
-    wind = {value.wind}
-    descript = {value.description}
-  />    
   <WeatherForecast
       forecast = {value.items}
       city = {value.city}
   /> 
-  
+
   */
 
   return (
     <div className="App">
       <div className='App-content'>
        <SearchForm func={setValue}/>
+       <h2 className="today">Прогноз на сегодня</h2>
+       <WeatherItem
+          city = {value.city}
+          tempr = {value.temperature}
+          wind = {value.wind}
+          descript = {value.description}
+        />    
       </div>    
     </div>
   );

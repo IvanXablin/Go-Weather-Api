@@ -1,11 +1,12 @@
 .searchForm__wrapper {
     width: 100%;
+    height: 70px;
     display: flex;
 }
 
 .searchFormContent {
     width: 100%;
-    margin: 0 5%;
+    margin: 50px 1%;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
@@ -13,11 +14,10 @@
     align-items: center;
 }
 
-.searchInput input {
-   
+.searchInput input { 
    min-width: 250px;
    min-height: 25px;
-   border: 0.1px solid black;
+   border: 0.2px solid black;
    border-radius: 20px;
 }
 
@@ -26,7 +26,6 @@
 }
 
 .searchButton button {
-
     min-width:  29px;
     min-height: 29px;
     border: none;

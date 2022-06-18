@@ -1,14 +1,8 @@
 .weather {
-    width: 400px;
+    min-width: 350px;
     height: 220px;
-    border: 0 solid black;
     border-radius: 20px;
-    background: url('/public/bg-clouds.jpg') 0 0/cover no-repeat;
-}
-
-.weather:hover {
-    margin-left: 2px;
-    box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+    background: url('/public/sun.jpg') 0 0/cover no-repeat;
 }
 
 .weatherContent {
@@ -21,14 +15,14 @@
 
 .weatherContent h1 {
     font-size: xx-large;
+    color:#ecd08d;
 }
 
 .blur {
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(11px);
-    border: 1px solid;
     border-radius: 20px;
-	width: 400px;
+	min-width: 350px;
     height: 220px;
     display: flex;
 }
