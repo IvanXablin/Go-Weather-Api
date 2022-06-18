@@ -1,6 +1,9 @@
 .App {
+    display: flex;
+}
+
+.App-content {
     margin: 0 auto;
-    width: 40%;
 }
 
 .today {

@@ -1,26 +1,39 @@
-.customInput {
-    width: 340px;
-    height: 40px;
-    border: none;
-    outline: none;
-    padding: 0 25px;
-    border-radius: 25px 0 0 25px;
-    font-size: 20px;
+.searchForm__wrapper {
+    width: 100%;
+    display: flex;
 }
 
-.customButton {
-    position: relative;
-    width: 150px;
-    height: 40px;
-    border-radius: 0 25px 25px 0;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    font-size: 20px;
-    background-color: #ffc107;
-    color: white;
+.searchFormContent {
+    width: 100%;
+    margin: 0 5%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
-.customButton:hover {
-    background-color: #ff5722;
+.searchInput input {
+   
+   min-width: 250px;
+   min-height: 25px;
+   border: 0.1px solid black;
+   border-radius: 20px;
+}
+
+.searchButton {
+    margin-left: 4px;
+}
+
+.searchButton button {
+
+    min-width:  29px;
+    min-height: 29px;
+    border: none;
+    border-radius: 20px;
+    background-color: #747473;
+}
+
+.searchButton button:hover {
+    background-color: #dada5b;
 }

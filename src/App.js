@@ -8,22 +8,27 @@ import './App.css'
 function App() {
   const [value, setValue] = useState({city: '', temperature: '', wind: '', description: '', items:[]});
 
+  /* 
+
+  <h1 className="today">Прогноз погоды на сегодня</h1>
+  <WeatherItem
+    city = {value.city}
+    tempr = {value.temperature}
+    wind = {value.wind}
+    descript = {value.description}
+  />    
+  <WeatherForecast
+      forecast = {value.items}
+      city = {value.city}
+  /> 
+  
+  */
+
   return (
     <div className="App">
-        <SearchForm
-            func={setValue}
-        />
-        <h1 className="today">Прогноз погоды на сегодня</h1>
-        <WeatherItem
-          city = {value.city}
-          tempr = {value.temperature}
-          wind = {value.wind}
-          descript = {value.description}
-        />    
-        <WeatherForecast
-            forecast = {value.items}
-            city = {value.city}
-        />
+      <div className='App-content'>
+       <SearchForm func={setValue}/>
+      </div>    
     </div>
   );
 }
