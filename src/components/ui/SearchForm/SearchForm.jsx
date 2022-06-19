@@ -16,7 +16,7 @@ export default function SearchForm(props) {
                     <div className={styles.searchInput}>
                         <input 
                             type="text"
-                            placeholder=" Enter your city..."
+                            placeholder="Enter your city..."
                             value={props.inputValue}
                             onChange={e => props.setInputValue(e.target.value)}
                             onKeyDown={(e) => {something(e)}}
