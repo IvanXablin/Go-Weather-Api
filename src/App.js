@@ -1,23 +1,12 @@
 import SearchForm from './components/Search.jsx';
 import WeatherItem from './components/WeatherItem.jsx'
 import { useState } from 'react';
+import WeatherForecast from './components/WeatherForecast.jsx'
 import './App.css'
 
 
 function App() {
   const [value, setValue] = useState({city: '', temperature: '', wind: '', description: '', items:[]});
-
-
-  /* 
-  import WeatherForecast from './components/WeatherForecast.jsx'
-
-              <h2 className="today">Прогноз погоды на сегодня</h2>
-                  <WeatherForecast
-                    forecast = {value.items}
-                    city = {value.city}
-                  /> 
-
-  */
 
   return (
     <div className="App">
@@ -30,6 +19,11 @@ function App() {
                     wind = {value.wind}
                     descript = {value.description} 
               /> 
+              <h2>Прогноз на следующие дни</h2>
+                  <WeatherForecast
+                    forecast = {value.items}
+                    city = {value.city}
+                  /> 
             </div>    
       </div>
   );

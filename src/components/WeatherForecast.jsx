@@ -5,7 +5,6 @@ import classes from "./WeatherForecast.module.css";
 function WeatherForecast({forecast, city}) {
     return (
         <div>
-            <h1 className={classes.h1}>Прогноз погоды на следующие дни</h1>
              {forecast.map(i => {
                  return (
                      <div className={classes.forecastContent}>
